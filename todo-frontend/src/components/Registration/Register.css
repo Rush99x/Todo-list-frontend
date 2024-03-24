@@ -1,0 +1,97 @@
+/* RegisterPage.css */
+
+/* Container styles */
+.register-container {
+    background-color: #ccc;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 2%;
+  }
+  
+  /* Form styles */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .register-form > div {
+    margin-bottom: 15px;
+  }
+  
+  .register-form label {
+    font-weight: bold;
+  }
+  
+  .register-form input[type="text"]
+  {
+    width: 205%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .register-form input[type="email"]
+  {
+    width: 205%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .register-form input[type="password"] {
+    width: 205%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styles */
+  .register-form button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b0c0c;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  
+  }
+
+  .register-form1 button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b0c0c;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    /* margin-left: 5%; */
+  }
+  
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link button styles */
+  .register-form .login-link {
+    margin-top: 10px;
+  }
+  
+  .register-form .login-link button {
+    background-color: #28a745;
+  }
+  
+  .register-form .login-link button:hover {
+    background-color: #218838;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  

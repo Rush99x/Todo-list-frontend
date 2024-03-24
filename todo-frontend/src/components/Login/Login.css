@@ -1,0 +1,82 @@
+/* LoginPage.css */
+
+/* Container styles */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+  }
+  
+  /* Form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form > div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    font-weight: bold;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styles */
+  .login-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b0c0c;
+    color: #fff;
+    cursor: pointer;
+    width: 96%;
+    margin-left: 8px;
+  }
+
+  .login-form1 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b0c0c;
+    color: #fff;
+    cursor: pointer;
+    width: 96%;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link button styles */
+  .login-form .registration-link {
+    margin-top: 10px;
+  }
+  
+  .login-form .registration-link button {
+    background-color: #0b0c0c;
+    width: 100%;
+  }
+  
+  .login-form .registration-link button:hover {
+    background-color: #0056b3;
+  }
+  .h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
